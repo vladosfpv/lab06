@@ -80,7 +80,6 @@ install(TARGETS solver
 
 include(CPackConfig.cmake)
 ```
-![Снимок экрана от 2023-04-04 20-06-46](https://user-images.githubusercontent.com/125737299/232226523-f2b1ed95-a87b-44f8-bc74-5ace932617f4.png)
 
 
 Let's create `CPackConfig.cmake` (packaging tool)
@@ -113,7 +112,6 @@ set(CPACK_GENERATOR "DEB")
 
 include(CPack)
 ```
-![Снимок экрана от 2023-04-04 20-06-24](https://user-images.githubusercontent.com/125737299/232226546-61de0eae-c7f8-4201-9a49-1743f9eccfdf.png)
 
 Create LICENSE and DESCRIPTION for working our programm
 
@@ -194,8 +192,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         allowUpdates: true
 ```
-![Снимок экрана от 2023-04-04 20-06-07](https://user-images.githubusercontent.com/125737299/232226557-eadff437-d4bd-42f0-9b8f-78f318138f4c.png)
-
 
 After we create a release `v1.0.0.0`
 
